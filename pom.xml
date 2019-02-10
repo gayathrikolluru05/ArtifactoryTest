@@ -1,4 +1,5 @@
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Urbancode</groupId>
   <artifactId>hello.war</artifactId>
@@ -25,16 +26,4 @@
     <sonar.host.url>http://ind2bzr0109.in.ibm.com:9000/</sonar.host.url>
     <sonar.dynamicAnalysis>false</sonar.dynamicAnalysis>
   </properties>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>inmbzp4108.in.dst.ibm.com-releases</name>
-        <url>http://inmbzp4108.in.dst.ibm.com:6006/artifactory/Jenkins-test</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>inmbzp4108.in.dst.ibm.com-snapshots</name>
-        <url>http://inmbzp4108.in.dst.ibm.com:6006/artifactory/Jenkins-test</url>
-    </snapshotRepository>
-</distributionManagement>
 </project>
