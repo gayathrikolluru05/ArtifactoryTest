@@ -1,10 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
   <modelVersion>4.0.0</modelVersion>
   <groupId>Urbancode</groupId>
   <artifactId>hello.war</artifactId>
   <name>hello</name>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <build>
     <sourceDirectory>.</sourceDirectory>
     <outputDirectory>/opt/IBM/UCBuild/agent/var/work/job/152/helloworld/dist/</outputDirectory>
