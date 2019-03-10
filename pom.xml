@@ -9,17 +9,6 @@
     <sourceDirectory>.</sourceDirectory>
     <outputDirectory>/opt/IBM/UCBuild/agent/var/work/job/152/helloworld/dist/</outputDirectory>
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.5</source>
-          <target>1.5</target>
-          <excludes>
-            <exclude>**/*.*</exclude>
-          </excludes>
-        </configuration>
-      </plugin>
 	  <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
@@ -35,20 +24,4 @@
   </plugin>
     </plugins>
   </build>
-  <properties>
-    <sonar.host.url>http://ind2bzr0109.in.ibm.com:9000/</sonar.host.url>
-    <sonar.dynamicAnalysis>false</sonar.dynamicAnalysis>
-  </properties>
-  <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>inmbzp4108.in.dst.ibm.com-releases</name>
-        <url>http://inmbzp4108.in.dst.ibm.com:6060/artifactory/Jenkins-test</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>inmbzp4108.in.dst.ibm.com-snapshots</name>
-        <url>http://inmbzp4108.in.dst.ibm.com:6060/artifactory/Jenkins-test</url>
-    </snapshotRepository>
-</distributionManagement>
 </project>
